@@ -1254,7 +1254,7 @@ abstract class Entity{
 	/**
 	 * @return Block[]
 	 */
-	protected function getBlocksAroundWithEntityInsideActions() : array{
+	public function getBlocksAroundWithEntityInsideActions() : array{
 		if($this->blocksAround === null){
 			$this->blocksAround = [];
 
